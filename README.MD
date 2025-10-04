@@ -80,7 +80,7 @@ Cada operação manipula explicitamente os ponteiros dos nós para garantir a in
 
 1. **Clone o repositório:**
    ```bash
-   git clone <URL_DO_REPOSITORIO>
+   git clone https://github.com/brunoMyguelDotCom/Doubly-Linked-List-Employee-CRUD-C-
    cd C_Colab_Cad_Doubly_Linked_List_CRUD
    ```
 
@@ -184,7 +184,7 @@ Each operation explicitly manipulates node pointers to maintain list integrity:
 
 1. **Clone the repository:**
    ```bash
-   git clone <REPOSITORY_URL>
+   git clone https://github.com/brunoMyguelDotCom/Doubly-Linked-List-Employee-CRUD-C-
    cd C_Colab_Cad_Doubly_Linked_List_CRUD
    ```
 
