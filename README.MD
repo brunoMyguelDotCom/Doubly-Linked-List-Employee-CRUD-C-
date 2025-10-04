@@ -87,12 +87,12 @@ Cada operação manipula explicitamente os ponteiros dos nós para garantir a in
 2. **Compile o projeto:**
    - **Linux/macOS:**
      ```bash
-     gcc main.c -o lista
+     gcc LisDuplaEncad.c -o lista
      ./lista
      ```
    - **Windows:**
      ```cmd
-     gcc main.c -o lista.exe
+     gcc LisDuplaEncad.c -o lista.exe
      lista.exe
      ```
 
@@ -191,12 +191,12 @@ Each operation explicitly manipulates node pointers to maintain list integrity:
 2. **Compile the project:**
    - **Linux/macOS:**
      ```bash
-     gcc main.c -o lista
+     gcc LisDuplaEncad.c -o lista
      ./lista
      ```
    - **Windows:**
      ```cmd
-     gcc main.c -o lista.exe
+     gcc LisDuplaEncad.c -o lista.exe
      lista.exe
      ```
 
