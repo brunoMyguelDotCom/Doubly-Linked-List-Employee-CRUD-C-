@@ -53,6 +53,7 @@ A lista permite percorrer os elementos tanto do início ao fim quanto do fim ao 
 ### Detalhes Multiplataforma
 
 O código é totalmente multiplataforma:
+
 - Não utiliza bibliotecas específicas de sistema operacional.
 - O menu interativo funciona em qualquer terminal (cmd, bash, zsh, etc.).
 - O código-fonte pode ser compilado com qualquer compilador C padrão (GCC, Clang, MinGW, MSVC).
@@ -61,6 +62,7 @@ O código é totalmente multiplataforma:
 ### Como funciona
 
 Cada operação manipula explicitamente os ponteiros dos nós para garantir a integridade da lista:
+
 - **Inserção:**  
   - Cria um novo nó com `malloc`.
   - Atualiza os ponteiros `next` e `prev` dos nós afetados.
@@ -79,6 +81,7 @@ Cada operação manipula explicitamente os ponteiros dos nós para garantir a in
 ### Como executar
 
 1. **Clone o repositório:**
+
    ```bash
    git clone https://github.com/brunoMyguelDotCom/Doubly-Linked-List-Employee-CRUD-C-
    cd C_Colab_Cad_Doubly_Linked_List_CRUD
@@ -86,11 +89,14 @@ Cada operação manipula explicitamente os ponteiros dos nós para garantir a in
 
 2. **Compile o projeto:**
    - **Linux/macOS:**
+
      ```bash
      gcc LisDuplaEncad.c -o lista
      ./lista
      ```
+
    - **Windows:**
+
      ```cmd
      gcc LisDuplaEncad.c -o lista.exe
      lista.exe
@@ -165,24 +171,30 @@ The list allows traversal from head to tail and from tail to head. All manipulat
 ### How it works
 
 Each operation explicitly manipulates node pointers to maintain list integrity:
+
 - **Insertion:**  
   - Allocates a new node with `malloc`.
   - Updates `next` and `prev` pointers of affected nodes.
   - Updates `head` or `tail` pointers if necessary.
+
 - **Removal:**  
   - Locates the node to be removed.
   - Adjusts neighboring nodes' pointers to bypass the removed node.
   - Frees the removed node's memory with `free`.
+
 - **Search:**  
   - Traverses the list from `head` to find the desired value.
+
 - **Update:**  
   - After search, changes the `data` field of the found node.
+
 - **Display:**  
   - Traverses the list from `head` to `tail` and vice versa, printing each node's `data` value.
 
 ### How to run
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/brunoMyguelDotCom/Doubly-Linked-List-Employee-CRUD-C-
    cd C_Colab_Cad_Doubly_Linked_List_CRUD
@@ -190,11 +202,14 @@ Each operation explicitly manipulates node pointers to maintain list integrity:
 
 2. **Compile the project:**
    - **Linux/macOS:**
+
      ```bash
      gcc LisDuplaEncad.c -o lista
      ./lista
      ```
+
    - **Windows:**
+
      ```cmd
      gcc LisDuplaEncad.c -o lista.exe
      lista.exe
