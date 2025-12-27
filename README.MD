@@ -202,7 +202,11 @@ Each operation explicitly manipulates node pointers to maintain list integrity:
 
 3. **Use the interactive menu in the terminal to access the operations:**
    - Insert element (beginning, end, or position)
+
    - Remove element (by value or position)
+
    - Search element (by value)
+
    - Update element (by value)
-   - Display list (forward and reverse)
+
+   - Display list (forward and reverse)// pair programming test
